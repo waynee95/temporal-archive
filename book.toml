@@ -1,0 +1,8 @@
+[book]
+authors = ["waynee95"]
+language = "en"
+src = "src"
+title = "Temporal Logics Archive"
+
+[output.html]
+mathjax-support = true
