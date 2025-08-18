@@ -15,7 +15,7 @@ Büchi automaton (DBA).
 A trace (or word) \\(t \in \Sigma^\omega\\) is accepted by \\(\mathcal{A}\\) if there
 exists an infinite run \\(\rho \in Q^\omega\\) such that \\(\rho\\) visits
 states in \\(F\\) infinitely often, \\(\rho(0) = q_I\\), and, for all 
-\\(i\\), \\(\rho(i + 1) \in \delta(\rho(i), t(i))\\).
+\\(i\\), \\((\rho(i), t(i), \rho(i + 1)) \in \delta\\).
 
 Let \\(Inf(\rho)\\) be the set of all states that occur infinitely often in \\(\rho\\).
 Then a run is accepting if \\(Inf(\rho) \cap F \neq \emptyset\\), i.e. at least
